@@ -1,6 +1,6 @@
 const some1 = document.querySelector(".someCores");
 const some2 = document.querySelector(".someEstilos");
-const some3 = document.querySelector(".someCustomizados");
+const some3 = document.querySelector(".someCustomizacao");
 
 const ligarEDesligarADiv = function(){
 
