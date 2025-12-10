@@ -9,25 +9,25 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.html" class="lys">Live Your Style</a></h1>
+        <h1><a href="index.html" id="pag-inicio">Live Your Style</a></h1>
     </header>
 
     <main>
-        <section>
+        <section class="section-center" id="capa">
             <h2>sinta sua personalidade</h2>
             <p>As cores não te definem, elas se expressam.</p>
         </section>
 
         <!--introdução sobre cores-->
-        <div>
-            <section>
+        <div class="main-div" id="intro-div">
+            <section class="section-center" id="intro-1">
                 <div>
                     <h3>O que é cor e como ela ocorre?</h3>
                     <p>A cor é uma percepção visual criada pela forma como nossos olhos e cérebro interpretam a luz. Embora pareça algo físico e tangível, a cor é, na verdade, uma experiência sensorial resultante da interação entre a luz, os objetos e o observador.</p>
                 </div>
             </section>
 
-            <section>
+            <section class="section-center" id="intro-2">
                 <div>
                     <h3>Como a cor é formada?</h3>
                     <p>A luz visível — uma pequena parte do espectro eletromagnético — é composta por diferentes comprimentos de onda. Cada comprimento de onda corresponde a uma cor específica. Quando a luz incide sobre um objeto, algumas dessas ondas são absorvidas e outras são refletidas. É justamente a combinação das ondas refletidas que determina a cor que enxergamos.</p>
@@ -35,11 +35,12 @@
                     <p>Nossos olhos possuem células sensíveis à luz chamadas cones, que são responsáveis por detectar diferentes faixas de cor (vermelho, verde e azul). Quando a luz refletida pelos objetos chega aos olhos, os cones enviam sinais ao cérebro, que então interpreta essas informações como cores distintas.</p>
                 </div>
             </section>
-            <section>
+
+            <section class="section-center" id="intro-3">
                 <div>
                     <h3>Por que vemos cores diferentes?</h3>
                     <p>A percepção de cor pode variar de acordo com fatores como:</p><br>
-                    <ul>
+                    <ul class="list-txt">
                         <li>
                             <p><strong>Iluminação:</strong> a mesma cor pode parecer diferente sob luz natural, fluorescente ou LED.</p>
                         </li>
@@ -52,7 +53,8 @@
                     </ul>
                 </div>
             </section>
-            <section>
+
+            <section class="section-frase" id="intro-frase">
                 <div>
                     <h3>Além de ser um fenômeno óptico, a cor também tem grande impacto cultural, emocional e funcional. Ela influencia nossa experiência estética, nossa comunicação visual e até nossas decisões cotidianas.</h3>
                 </div>
@@ -60,9 +62,9 @@
         </div>
 
         <!--explicação sobre combinações e escolha-->
-        <div>
+        <div class="main-div" id="cores-div">
             <!--como escolher cor-->
-            <section>
+            <section class="section-center" id="escolher-cor">
                 <div>
                     <h3>Como Saber Escolher a Cor Ideal?</h3>
                     <p>Escolher a cor certa pode parecer simples, mas envolve mais estratégia do que muitos imaginam. Cores comunicam sensações, direcionam a atenção do usuário e reforçam a identidade visual de uma marca ou projeto. Por isso, entender como selecioná-las é essencial para criar harmonia, clareza e impacto visual.</p>
@@ -71,26 +73,28 @@
             </section>
 
             <!--tipos paletas-->
-            <section>
-                <div>
-                    <h3>Tipos de Paletas de Cores</h3>
-                    <p>As paletas são combinações que ajudam a organizar e harmonizar cores, facilitando seu uso em projetos visuais. Aqui estão os principais tipos:</p>
-                </div>
+            <section class="main-section" id="paletas">
+                <section class="section-center" id="intro-tipo-paleta">
+                    <div>
+                        <h3>Tipos de Paletas de Cores</h3>
+                        <p>As paletas são combinações que ajudam a organizar e harmonizar cores, facilitando seu uso em projetos visuais. Aqui estão os principais tipos:</p>
+                    </div>
+                </section>
 
-                <div>
-                    <!--paleta monocromatica-->
-                    <section>
-                        <h3>Paleta Monocromática</h3>
-                        <section class="txt">
-                            <p>A paleta monocromática é construída a partir de uma única cor-base, explorando suas variações de tom, saturação e luminosidade.</p>
-                            <p>Você pega uma cor principal — por exemplo, vermelho — e cria versões mais claras, escuras e intermédias.</p>
-                            <p>Além de harmoniosa e suave aos olhos é fácil de aplicar, quase impossível gerar conflito visual, porém pode parecer monótona se não houver contrastes suficientes. Geralmente são utilizadas em sites profissionais, marcas de luxo, design clean e interfaces que priorizam clareza.</p>
-                        </section>
-
-                        <section class="img">
-                            <img src="../assets/imgs/paletas/paleta-monocromatica.jpg" alt="Paleta Monocromática">
-                        </section>
+                
+                <!--paleta monocromatica-->
+                <section>
+                    <h3>Paleta Monocromática</h3>
+                    <section class="txt">
+                        <p>A paleta monocromática é construída a partir de uma única cor-base, explorando suas variações de tom, saturação e luminosidade.</p>
+                        <p>Você pega uma cor principal — por exemplo, vermelho — e cria versões mais claras, escuras e intermédias.</p>
+                        <p>Além de harmoniosa e suave aos olhos é fácil de aplicar, quase impossível gerar conflito visual, porém pode parecer monótona se não houver contrastes suficientes. Geralmente são utilizadas em sites profissionais, marcas de luxo, design clean e interfaces que priorizam clareza.</p>
                     </section>
+
+                    <section class="img">
+                        <img src="../assets/imgs/paletas/paleta-monocromatica.jpg" alt="Paleta Monocromática">
+                    </section>
+                </section>
 
                     <!--paleta analoga-->
                     <section>
@@ -169,11 +173,11 @@
                             <img src="../assets/imgs/paletas/paleta-acromatica.jpg" alt="Paleta Acromática">
                         </section>
                     </section>
-                </div>
+                
             </section>
 
             <!--explicação sobre cada cor-->
-            <section>
+            <section class="main-section" id="cores">
                 <div>
                     <h3>Como as Cores Transmitem Emoções</h3>
                     <p>As cores têm um poder direto sobre a forma como percebemos o mundo. Elas despertam emoções, sensações e comportamentos — influenciando desde decisões de compra até a atmosfera de um ambiente. Cada cor carrega significados psicológicos e culturais que podem reforçar a mensagem de um projeto visual, por isso entender sua simbologia é essencial para criar designs eficientes, harmoniosos e impactantes.</p><br>
