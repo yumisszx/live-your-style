@@ -27,7 +27,6 @@ header {
     box-shadow: 0.25rem 0.10rem 0.5rem rgba(0, 0, 0, 0.13);
     position: fixed;
     top: 0;
-    left: 0;
 }
 
 #pag-inicio{
@@ -39,7 +38,7 @@ header {
 footer{
     background-color: var(--header-footer);
     height: 2.5rem;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +47,7 @@ footer{
 
 /*capa de inicio*/
 #capa {
-    background-image: linear-gradient(to right, white 45%,#dddddd 45% 55%);
+    background-image: linear-gradient(to right, white 45vw,#dddddd 45vw 55vw);
     width: 100vw;
     height: 89vh;
     display: flex;
