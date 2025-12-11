@@ -3,3 +3,27 @@
 #span-click{
     font-weight: bold;
 }
+
+#some{
+    height: 35vh;
+    background-color: rgb(136, 136, 136);
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+button{
+    border: 0;
+    width: clamp(15rem, 25vw, 30rem);
+    height: clamp(5rem, 10vw, 25rem);
+    background-color: rgb(49, 49, 49);
+    padding: 1.5rem;
+    border-radius: 1.5em;
+}
+
+button span{
+    font-size: clamp(2em, 2.5vw, 3em);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
