@@ -1,0 +1,72 @@
+/*layouts fixos de todas as páginas*/
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+@font-face {
+    font-family: 'Bimbo';
+    src: url('../../assets/fonts/bimbo/Bimbo\ Sharpie\ Trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --header-footer: rgb(238, 238, 238);
+}
+
+/*cabeçalho*/
+header {
+    background-color: var(--header-footer);
+    height: 2.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.25rem 0.10rem 0.5rem rgba(0, 0, 0, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#pag-inicio{
+    font-family: "Bimbo", serif;
+    color: rgb(0, 0, 0);
+}
+
+/*rodapé*/
+footer{
+    background-color: var(--header-footer);
+    height: 2.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+/*capa de inicio*/
+#capa {
+    background-image: linear-gradient(to right, white 45%,#dddddd 45% 55%);
+    width: 100vw;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#capa h2{
+    text-transform: uppercase;
+    font-family: "Arbutus Slab", serif;
+    font-size: clamp(1.5rem, 4vw, 6rem);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#capa p{
+    margin: 0;
+    font-size: clamp(1em, 1.5vw, 2rem);
+}
+
