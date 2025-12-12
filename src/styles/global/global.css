@@ -78,11 +78,25 @@ section{
 .section-inline{
     flex-direction: row;
     justify-content: space-around;
-    gap: 1rem;
+    align-items: center;
+    gap: 4rem;
     flex-wrap: wrap;
     margin-top: 3rem;
 }
 
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 p{
     font-size: clamp(1em, 1.25vw, 1.5rem);
@@ -101,6 +115,7 @@ h3{
     font-family: "Arbustus Slab", serif;
     font-weight: 600;
     text-transform: uppercase;
+    margin-top: 4rem;
 }
 
 img{
