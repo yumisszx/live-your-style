@@ -1,0 +1,1 @@
+//função sumir texto das cores
