@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const btnCor = document.querySelectorAll('.btn-cor');
     const txtCor = document.querySelectorAll('.nav-txt');
+    const border = document.querySelectorId('.txt-cores');
 
     btnCor.forEach(button => {
         button.addEventListener('click', () => {
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cor = button.getAttribute('data-cor');
             document.getElementById(cor).classList.add('ativo');
 
+            
         });
     });
 });

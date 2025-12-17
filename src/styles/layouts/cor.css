@@ -84,9 +84,10 @@ nav{
 }
 
 #txt-cores{
-    background-color: aqua;
-    width: clamp(25rem, 60vw, 80rem);
+    box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.26);
+    width: clamp(25rem, 65vw, 80rem);
     height: clamp(20rem, 30vw, 40rem);
+    border-top: 1rem solid rgb(14, 14, 14);
 }
 
 .list-txt{
