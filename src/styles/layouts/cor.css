@@ -4,6 +4,14 @@
     display: none;
 }
 
-#nav-txt-preto{
+.nav-txt.ativo{
     display: block;
+}
+
+.btn-cor{
+    background-color: antiquewhite;
+}
+
+.btn-cor.ativo{
+    background-color: rgb(180, 149, 107);
 }
