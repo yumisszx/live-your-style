@@ -3,3 +3,7 @@
 .nav-txt{
     display: none;
 }
+
+#nav-txt-preto{
+    display: block;
+}

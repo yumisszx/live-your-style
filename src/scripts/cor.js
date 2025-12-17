@@ -1,5 +1,5 @@
 //função sumir texto das cores
-const some = document.querySelector(".nav-txt");
+//const some = document.querySelector(".nav-txt");
 
 const ligarCor = function(){
 
