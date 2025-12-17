@@ -88,3 +88,7 @@ nav{
     width: clamp(25rem, 60vw, 80rem);
     height: clamp(20rem, 30vw, 40rem);
 }
+
+.list-txt{
+    font-size: clamp(1.5em, 1.75vw, 2rem);
+}

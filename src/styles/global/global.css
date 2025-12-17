@@ -125,3 +125,14 @@ img{
 .txt{
     width: clamp(30rem, 40vw, 50rem);
 }
+
+.list-txt{
+    font-size: clamp(1em, 1.25vw, 1.5rem);
+    margin-left: 1.5rem;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+.list-txt strong{
+    text-transform: uppercase;
+}
